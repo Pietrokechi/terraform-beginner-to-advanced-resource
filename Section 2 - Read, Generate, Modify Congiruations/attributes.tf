@@ -3,7 +3,7 @@ provider "aws" {
   access_key = "PUT-YOUR-ACCESS-KEY-HERE"
   secret_key = "PUT-YOUR-SECRET-KEY-HERE"
 }
-
+#test 
 resource "aws_eip" "lb" {
   vpc      = true
 }
